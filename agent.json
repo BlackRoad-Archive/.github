@@ -46,6 +46,6 @@
     "7": "orchestration",
     "8": "network-api"
   },
-  "copilot_proxy": "http://raspberrypi.local:4000",
+  "copilot_proxy": "http://127.0.0.1:4000",
   "updated": "2026-02-27T19:25:00Z"
 }

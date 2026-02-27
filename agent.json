@@ -2,9 +2,50 @@
   "org": "BlackRoad-Archive",
   "agent": "ECHO",
   "color": "#FF88FF",
-  "fleet": ["octavia-pi5","aria-pi4","cecilia","gematria-do","lucidia-pi5"],
+  "fleet": ["octavia-pi5", "aria-pi4", "cecilia", "gematria-do", "lucidia-pi5"],
   "runners": "blackroad-fleet",
   "cost": "$0",
   "gateway": "http://octavia.local:8787",
-  "updated": "2026-02-23T22:49:06Z"
+  "scaffold": {
+    "layers": 10,
+    "steps": [
+      "initial-reviewer",
+      "task-to-org",
+      "task-to-team",
+      "task-to-project",
+      "task-to-agent",
+      "task-to-repo",
+      "task-to-device",
+      "task-to-drive",
+      "task-to-cloudflare",
+      "task-to-website-editor"
+    ]
+  },
+  "organizations": [
+    "Blackbox-Enterprises",
+    "BlackRoad-AI",
+    "BlackRoad-Archive",
+    "BlackRoad-Cloud",
+    "BlackRoad-Education",
+    "BlackRoad-Foundation",
+    "BlackRoad-Gov",
+    "BlackRoad-Hardware",
+    "BlackRoad-Interactive",
+    "BlackRoad-Labs",
+    "BlackRoad-Media",
+    "BlackRoad-OS",
+    "BlackRoad-Security",
+    "BlackRoad-Studio",
+    "BlackRoad-Ventures"
+  ],
+  "cli_layers": {
+    "3": "agents-system",
+    "4": "deploy-orchestration",
+    "5": "branches-environments",
+    "6": "lucidia-core-memory",
+    "7": "orchestration",
+    "8": "network-api"
+  },
+  "copilot_proxy": "http://raspberrypi.local:4000",
+  "updated": "2026-02-27T19:25:00Z"
 }

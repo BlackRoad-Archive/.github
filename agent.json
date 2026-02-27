@@ -2,7 +2,7 @@
   "org": "BlackRoad-Archive",
   "agent": "ECHO",
   "color": "#FF88FF",
-  "fleet": ["octavia-pi5", "aria-pi4", "cecilia", "gematria-do", "lucidia-pi5"],
+  "fleet": ["octavia-pi5", "aria-pi5", "cecilia", "gematria-do", "lucidia-pi5"],
   "runners": "blackroad-fleet",
   "cost": "$0",
   "gateway": "http://octavia.local:8787",

@@ -84,10 +84,14 @@ function ColorSwatch({ hex, name, token }) {
 
 function GraySwatch({ hex, name }) {
   const [copied, setCopied] = useState(false);
-  const handleCopy = () => {
-    navigator.clipboard.writeText(hex);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(hex);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch (error) {
+      console.error("Failed to copy gray color value to clipboard", error);
+    }
   };
   const isLight = parseInt(name) <= 300;
   return (

@@ -82,13 +82,6 @@ function StatusDot({ status }) {
 }
 
 export default function AgentStatus() {
-  const [tick, setTick] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => setTick((t) => t + 1), 3000);
-    return () => clearInterval(interval);
-  }, []);
-
   const activeCount = AGENTS.filter((a) => a.status === "active").length;
   const degradedServices = SERVICES.filter((s) => s.status === "degraded").length;
 

@@ -27,10 +27,19 @@ function GradientBar({ height = 2 }) {
 
 function ColorSwatch({ hex, name, token }) {
   const [copied, setCopied] = useState(false);
-  const handleCopy = () => {
-    navigator.clipboard.writeText(hex);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 1500);
+  const handleCopy = async () => {
+    if (!navigator || !navigator.clipboard || !navigator.clipboard.writeText) {
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(hex);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    } catch (error) {
+      if (typeof console !== "undefined" && console.error) {
+        console.error("Failed to copy to clipboard:", error);
+      }
+    }
   };
   return (
     <div

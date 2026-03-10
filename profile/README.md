@@ -1,38 +1,37 @@
 <div align="center">
 
-# 📦 BlackRoad Archive
+# BlackRoad Archive
 
-### Preserve. Distribute. Remember.
+**Distributed storage — IPFS pinning, document archival, backups, web archiving.**
 
-Distributed storage, IPFS, web archival, and documentation backup for the long-term.
-
-[![Platform](https://img.shields.io/badge/Platform-blackroad.io-FF1D6C?style=for-the-badge)](https://blackroad.io)
-[![Agents](https://img.shields.io/badge/AI_Agents-30%2C000-9C27B0?style=for-the-badge)](https://agents.blackroad.io)
-[![Cost](https://img.shields.io/badge/AI_Cost-%240-F5A623?style=for-the-badge)](https://blackroad.io)
+[![Website](https://img.shields.io/badge/blackroad--archive.github.io-000?style=flat-square&logo=github)](https://blackroad-archive.github.io)
 
 </div>
 
 ---
 
-## 🎯 Focus Areas
+## Repositories
 
-`IPFS` • `Distributed Storage` • `Web Archive` • `Backup`
-
-## 🔗 Links
-
-| | |
+| Repository | Description |
 |---|---|
-| 🌐 **Website** | [blackroad-archive.github.io](https://blackroad-archive.github.io) |
-| 📖 **Docs** | [docs.blackroad.io](https://docs.blackroad.io) |
-| 💬 **Status** | [status.blackroad.io](https://status.blackroad.io) |
-| 🤖 **Agents** | [agents.blackroad.io](https://agents.blackroad.io) |
+| [blackroad-document-archive](https://github.com/BlackRoad-Archive/blackroad-document-archive) | Full-text document archive: FTS5 search, multi-format support (md/txt/html/pdf/json), ZIP export. SQLite. |
+| [blackroad-ipfs-tracker](https://github.com/BlackRoad-Archive/blackroad-ipfs-tracker) | Production IPFS content tracker: CID management, pin/unpin, gateway availability, manifest export. SQLite. |
+| [blackroad-backup-manager](https://github.com/BlackRoad-Archive/blackroad-backup-manager) | Automated backup management |
+| [blackroad-web-archiver](https://github.com/BlackRoad-Archive/blackroad-web-archiver) | Web page archiving and snapshot comparison |
+
+<details>
+<summary>Archived</summary>
+
+| Repository | Description |
+|---|---|
+| [archive-core](https://github.com/BlackRoad-Archive/archive-core) | Core archival system for long-term data preservation |
+| [snapshot-service](https://github.com/BlackRoad-Archive/snapshot-service) | Automated snapshot and versioning service |
+| [blackroad-changelog-tracker](https://github.com/BlackRoad-Archive/blackroad-changelog-tracker) | Automated changelog and release notes manager |
+| [blackroad-artifact-registry](https://github.com/BlackRoad-Archive/blackroad-artifact-registry) | Build artifact registry and versioning |
+| [blackroad-ipfs-pinner](https://github.com/BlackRoad-Archive/blackroad-ipfs-pinner) | IPFS content pinning service with redundancy |
+
+</details>
 
 ---
 
-<div align="center">
-
-**Part of [BlackRoad OS](https://blackroad.io)** — 30,000 AI Agents • 17 Organizations • 1,800+ Repos • $0 AI Cost
-
-*© BlackRoad OS, Inc. All rights reserved.*
-
-</div>
+<sub>BlackRoad OS, Inc. — [blackroad.io](https://blackroad.io)</sub>

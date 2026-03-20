@@ -1,37 +1,25 @@
-<div align="center">
-
 # BlackRoad Archive
 
-**Distributed storage — IPFS pinning, document archival, backups, web archiving.**
-
-[![Website](https://img.shields.io/badge/blackroad--archive.github.io-000?style=flat-square&logo=github)](https://blackroad-archive.github.io)
-
-</div>
+**A division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) — Proprietary Software**
 
 ---
 
-## Repositories
+## About
 
-| Repository | Description |
-|---|---|
-| [blackroad-document-archive](https://github.com/BlackRoad-Archive/blackroad-document-archive) | Full-text document archive: FTS5 search, multi-format support (md/txt/html/pdf/json), ZIP export. SQLite. |
-| [blackroad-ipfs-tracker](https://github.com/BlackRoad-Archive/blackroad-ipfs-tracker) | Production IPFS content tracker: CID management, pin/unpin, gateway availability, manifest export. SQLite. |
-| [blackroad-backup-manager](https://github.com/BlackRoad-Archive/blackroad-backup-manager) | Automated backup management |
-| [blackroad-web-archiver](https://github.com/BlackRoad-Archive/blackroad-web-archiver) | Web page archiving and snapshot comparison |
+BlackRoad Archive is the preservation and storage division of BlackRoad OS. BlackRoad Archive handles IPFS pinning, document archival, web archiving, backup management, and long-term data preservation. Nothing gets lost.
 
-<details>
-<summary>Archived</summary>
+All repositories in this organization are proprietary to BlackRoad OS, Inc. Source code is publicly visible for transparency. Commercial use, forking, and redistribution are prohibited.
 
-| Repository | Description |
-|---|---|
-| [archive-core](https://github.com/BlackRoad-Archive/archive-core) | Core archival system for long-term data preservation |
-| [snapshot-service](https://github.com/BlackRoad-Archive/snapshot-service) | Automated snapshot and versioning service |
-| [blackroad-changelog-tracker](https://github.com/BlackRoad-Archive/blackroad-changelog-tracker) | Automated changelog and release notes manager |
-| [blackroad-artifact-registry](https://github.com/BlackRoad-Archive/blackroad-artifact-registry) | Build artifact registry and versioning |
-| [blackroad-ipfs-pinner](https://github.com/BlackRoad-Archive/blackroad-ipfs-pinner) | IPFS content pinning service with redundancy |
+## Parent Organization
 
-</details>
+This division operates under [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc), the corporate root of the BlackRoad ecosystem. See the parent org for the full technology stack, product catalog, and organizational structure.
+
+## License
+
+Proprietary — BlackRoad OS, Inc. See individual repositories for license terms.
 
 ---
 
-<sub>BlackRoad OS, Inc. — [blackroad.io](https://blackroad.io)</sub>
+**BlackRoad OS — Pave Tomorrow.**
+
+*Copyright 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*

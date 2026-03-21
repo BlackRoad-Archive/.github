@@ -1,25 +1,41 @@
+<div align="center">
+
+<img src="https://images.blackroad.io/pixel-art/road-logo.png" alt="BlackRoad OS" width="80" />
+
 # BlackRoad Archive
 
-**A division of [BlackRoad OS, Inc.](https://github.com/BlackRoad-OS-Inc) — Proprietary Software**
+**Digital preservation infrastructure for data that matters.**
+
+[![BlackRoad OS](https://img.shields.io/badge/BlackRoad_OS-Pave_Tomorrow-FF2255?style=for-the-badge&labelColor=000000)](https://blackroad.io)
+
+</div>
 
 ---
 
 ## About
 
-BlackRoad Archive is the preservation and storage division of BlackRoad OS. BlackRoad Archive handles IPFS pinning, document archival, web archiving, backup management, and long-term data preservation. Nothing gets lost.
+BlackRoad Archive builds tools for long-term digital preservation and data sovereignty. We handle IPFS pinning, web archival, document management, and disaster recovery -- ensuring that critical data survives regardless of what happens to any single platform or provider.
 
-All repositories in this organization are proprietary to BlackRoad OS, Inc. Source code is publicly visible for transparency. Commercial use, forking, and redistribution are prohibited.
+## Repositories
 
-## Parent Organization
+| Repository | Description |
+|------------|-------------|
+| [blackroad-ipfs-tracker](https://github.com/BlackRoad-Archive/blackroad-ipfs-tracker) | IPFS pin management and content tracking |
+| [blackroad-web-archiver](https://github.com/BlackRoad-Archive/blackroad-web-archiver) | Automated web page capture and preservation |
+| [blackroad-document-archive](https://github.com/BlackRoad-Archive/blackroad-document-archive) | Structured document storage and retrieval |
+| [blackroad-backup-manager](https://github.com/BlackRoad-Archive/blackroad-backup-manager) | Cross-node backup orchestration |
+| [archive-core](https://github.com/BlackRoad-Archive/archive-core) | Shared archival libraries and formats |
 
-This division operates under [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc), the corporate root of the BlackRoad ecosystem. See the parent org for the full technology stack, product catalog, and organizational structure.
+## Part of BlackRoad OS
 
-## License
+This organization is part of [BlackRoad OS, Inc.](https://blackroad.io) -- sovereign AI infrastructure built by Alexa Amundson.
 
-Proprietary — BlackRoad OS, Inc. See individual repositories for license terms.
+- 16 organizations | 275+ repositories | 20 domains
+- 7 nodes | 41.8 TOPS | 60 AI agents
+- Self-hosted everything. Your AI. Your hardware. Your rules.
 
 ---
 
-**BlackRoad OS — Pave Tomorrow.**
+**BlackRoad OS -- Pave Tomorrow.**
 
-*Copyright 2024-2026 BlackRoad OS, Inc. All Rights Reserved.*
+[blackroad.io](https://blackroad.io) | [git.blackroad.io](https://git.blackroad.io)
